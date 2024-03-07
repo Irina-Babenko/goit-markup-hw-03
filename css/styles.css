@@ -4,12 +4,51 @@ body{
     background-color: #FFFFFF;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 ul {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+.conteiner {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-conteiner {
+    display: flex;
+}
+
+.heder-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
 }
 
 .header-logo {
@@ -20,10 +59,23 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
 }
 
 .header-logo-part {
 color: #2e2f42;;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-menu-link {
@@ -56,8 +108,14 @@ color: #2e2f42;;
 }
 
 .hero {
+    padding-bottom: 120px;
+}
+
+.hero-wrap {
+    padding: 188px 472px 292px 472px;
     background-color: #2e2f42;
 }
+
 
 .hero-title {
     font-weight: 700;
@@ -66,6 +124,11 @@ color: #2e2f42;;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+
 }
 .hero-btn {
     font-family: "Roboto", sans-serif;
@@ -76,6 +139,13 @@ color: #2e2f42;;
     cursor: pointer;
     color: #fff;
     background:#4d5ae5;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .hero-btn:hover,
@@ -87,6 +157,10 @@ color: #2e2f42;;
 background: #f4f4fd;
 }
 
+.about-features {
+    background color: #f4f4fd;
+    padding-bottom: 120px;
+}
 
 .visually-hidden {
     white-space: nowrap;
@@ -95,12 +169,24 @@ background: #f4f4fd;
     overflow: hidden;
 }
 
+.features-list {
+    display: flex;
+    gap: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.features-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-item-text {
@@ -114,8 +200,19 @@ background: #f4f4fd;
     background-color: #f4f4fd;;
 }
 
+.tiam-title {
+    margin: 0 auto;
+    margin-bottom: 72px;
+}
+
+.tiam-list {
+    display: flex;
+    gap: 24px;
+}
+
 .tiam-item {
     background-color: #fff;
+    width: calc((100% - 3 * 24px)/4);
 }
 
 .tiam-title {
@@ -135,6 +232,9 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .team-text {
@@ -143,6 +243,7 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 32px;
 }
 
 .portfolio-title {
@@ -153,7 +254,21 @@ background: #f4f4fd;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 136px;
+}
+
+.portfolio-item {
+    width: calc((100% - 2 * 24px)/3);
+}
+
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -161,6 +276,9 @@ background: #f4f4fd;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-left: 16px;
+    margin-top: 32px;
+
 }
 
 .portfolio-text {
@@ -168,10 +286,13 @@ background: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 32px;
 }
 
 .footer {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -193,4 +314,6 @@ background: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    margin-top: 16px;
 }
