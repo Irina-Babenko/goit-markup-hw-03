@@ -201,6 +201,13 @@ background: #f4f4fd;
 }
 
 .tiam-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
     margin: 0 auto;
     margin-bottom: 72px;
 }
@@ -215,14 +222,12 @@ background: #f4f4fd;
     width: calc((100% - 3 * 24px)/4);
 }
 
-.tiam-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
+.conteiner-team-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .team-subtitle {
@@ -232,8 +237,6 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-align: center;
-    margin-top: 32px;
     margin-bottom: 32px;
 }
 
@@ -243,7 +246,6 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 .portfolio-title {
@@ -269,6 +271,12 @@ background: #f4f4fd;
     width: calc((100% - 2 * 24px)/3);
 }
 
+.conteiner-portfolio-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -295,6 +303,11 @@ background: #f4f4fd;
     background-color: #2e2f42;
 }
 
+.conteiner-footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -303,6 +316,7 @@ background: #f4f4fd;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .footer-logo-part {
@@ -315,5 +329,6 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
+    padding-top: 16px;
+    padding-bottom: 100px;
 }
