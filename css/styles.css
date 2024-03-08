@@ -197,7 +197,8 @@ background: #f4f4fd;
 }
 
 .about-team {
-    background-color: #f4f4fd;;
+    background-color: #f4f4fd;
+    padding-bottom: 120px;
 }
 
 .tiam-title {
@@ -254,7 +255,6 @@ background: #f4f4fd;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
     padding-bottom: 72px;
 }
 
