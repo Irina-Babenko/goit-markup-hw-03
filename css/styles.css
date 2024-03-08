@@ -188,8 +188,6 @@ background: #f4f4fd;
 
 .features-item {
     width: calc((100% - 72px)/4);
-    padding-left: 0;
-    margin-left: 0;
 }
 
 .features-subtitle {
