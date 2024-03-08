@@ -191,7 +191,7 @@ background: #f4f4fd;
 }
 
 .features-item {
-    width: calc((100% - 72px)/4);
+    width: calc((100% - 3 * 24px)/4);
 }
 
 .features-subtitle {
