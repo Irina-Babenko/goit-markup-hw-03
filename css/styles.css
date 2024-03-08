@@ -190,8 +190,8 @@ background: #f4f4fd;
     padding-right: 8px;
 }
 
-.features-item:first-child {
-    width: calc((100% - 3 * 24px) / 4);
+.features-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -282,7 +282,8 @@ background: #f4f4fd;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     padding-bottom: 136px;
 }
 
