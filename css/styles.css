@@ -182,8 +182,7 @@ background: #f4f4fd;
     display: flex;
     gap: 24px;
     padding-left: 0px;
-    padding-right: 8px;
-    margin-left: 0;
+    margin: 0;
 }
 
 .features-item {
