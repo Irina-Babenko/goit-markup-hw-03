@@ -190,7 +190,7 @@ background: #f4f4fd;
     padding-right: 8px;
 }
 
-.features-item:ferst-child {
+.features-item {
 width: calc((100% - 72px) / 4);
 }
 
