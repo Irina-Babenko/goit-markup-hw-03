@@ -41,7 +41,7 @@ address {
     border-bottom: 1px solid #e7e9fc
 }
 
-.header-container {
+.container-heder {
     display: flex;
 }
 
@@ -73,9 +73,9 @@ color: #2e2f42;;
     gap: 40px;
 }
 
-.header-address-list {
+.header-address-link {
     display: flex;
-    gap: 40px;
+    gap: 40px
 }
 
 .header-menu-link {
@@ -84,7 +84,8 @@ color: #2e2f42;;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
+    padding: 24px 0;
+    }
 
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -93,6 +94,11 @@ color: #2e2f42;;
 
 .header-address {
     font-style: normal;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px
 }
 
 .header-address-link {
